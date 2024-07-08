@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "23439284"))
+API_HASH = getenv("API_HASH", "4ca08fc0a019682d8f77b05240123e9f")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", None)
@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6203163206"))
+OWNER_ID = int(getenv("OWNER_ID", "6028855169"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -77,21 +77,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/214f53702f788c668e294.jpg"
+    "START_IMG_URL", "https://graph.org/file/25cab6001dd0664eb67e1.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/214f53702f788c668e294.jpg"
+    "PING_IMG_URL", "https://graph.org/file/25cab6001dd0664eb67e1.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-STATS_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-STREAM_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/25cab6001dd0664eb67e1.jpg"
+STATS_IMG_URL = "https://graph.org/file/25cab6001dd0664eb67e1.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/25cab6001dd0664eb67e1.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/25cab6001dd0664eb67e1.jpg"
+STREAM_IMG_URL = "https://graph.org/file/25cab6001dd0664eb67e1.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/25cab6001dd0664eb67e1.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/25cab6001dd0664eb67e1.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/25cab6001dd0664eb67e1.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/25cab6001dd0664eb67e1.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/25cab6001dd0664eb67e1.jpg"
 
 
 def time_to_seconds(time):
